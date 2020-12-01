@@ -1,4 +1,4 @@
-# Created on 01 December 2020
+# Created on 23 April 2020
 # by Gus Yudha
 
 #Penjumlahan Geometri
