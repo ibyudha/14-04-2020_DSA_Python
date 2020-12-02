@@ -3,6 +3,7 @@
 
 
 #Panjang LL
+"""
 Input 1 :
 1
 3 4 5 2 6 1 9 -1
@@ -16,6 +17,7 @@ Input 2 :
 Output 2 :
 8
 0
+"""
 
 #################################
 class Simpul:
@@ -56,6 +58,7 @@ print(panjangnya)
 
 
 #Print ith Simpul
+"""
 Input 1 :
 1
 3 4 5 2 6 1 9 -1
@@ -72,6 +75,7 @@ Input 2 :
 Output 2 :
 3
 0
+"""
 
 #################################
 class Simpul:
@@ -109,6 +113,7 @@ if hasil:
 
 
 #Hapus Simpul
+"""
 Input 1 :
 1
 3 4 5 2 6 1 9 -1
@@ -125,6 +130,7 @@ Input 2 :
 Output 2 :
 4 5 2 6 1 9
 10 20 30 40 50 60
+"""
 
 #################################
 class Simpul:
@@ -171,6 +177,7 @@ printll(l)
 
 
 #Temukan sebuah simpul di linked list
+"""
 Input 1 :
 2
 3 4 5 2 6 1 9 -1
@@ -188,8 +195,10 @@ Input 2 :
 Output 2 :
 4
 
+
 Penjelasan untuk Input 2 :
 Mencari dengan 1 lompatan, N = 6 muncul di posisi 4 (dengan asumsi index dimulai dari 0)
+"""
 
 #################################
 class Simpul:
@@ -231,6 +240,7 @@ print(index)
 
 
 #Menyelipkan dari depan
+"""
 Input 1 :
 2
 1 2 3 4 5 -1
@@ -247,6 +257,7 @@ Input 2 :
 4
 Output 2 :
 90 61 67 100 10 6 77
+"""
 
 Penjelasan untuk Input 2 :
 Kita diminta memindahkan 4 simpul (90->61->67->100) kedepan list.
@@ -309,6 +320,7 @@ printll(l)
 
 
 #Hilangkan duplikasi dari LL
+"""
 Input 1 :
 1
 1 2 3 3 4 3 4 5 4 5 5 7 -1
@@ -322,6 +334,7 @@ Input 2 :
 Output 2 :
 10 20 30 40 50
 10
+"""
 
 #################################
 class Simpul:
@@ -365,6 +378,7 @@ printll(l)
 
 
 #Print LinkedList terbalik
+"""
 Input 1 :
 1
 1 2 3 4 5 -1
@@ -378,6 +392,7 @@ Input 2 :
 Output 2 :
 3 2 1
 50 40 30 20 10
+"""
 
 #################################
 class Simpul:
@@ -422,6 +437,7 @@ printll(r)
 
 
 #Palindrom LinkedList
+"""
 Input 1 :
 1
 9 2 3 3 2 9 -1
@@ -439,6 +455,7 @@ true
 Penjelasan untuk input 2 :
 Pada query pertama, list yang diberikan tidak palindrom, makanya outputnya 'false'.
 Pada query kedua, listnya kosong, makanya outputnya 'true'.
+"""
 
 #################################
 class Simpul:
