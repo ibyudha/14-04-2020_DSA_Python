@@ -2,6 +2,7 @@
 # by Gus Yudha
 
 #Penjumlahan Geometri
+"""
 Input 1 :
 3
 Output 1 :
@@ -11,6 +12,7 @@ Input 2 :
 4
 Output 2 :
 1.93750
+"""
 
 #################################
 def gJumlah(s):
@@ -26,6 +28,7 @@ print("%.5f" %x)
 
 
 #Cek Palindrom (Rekrusif)
+"""
 Input 1 :
 racecar
 Output 1:
@@ -35,6 +38,7 @@ Input 2 :
 ninja
 Output 2:
 false
+"""
 
 #################################
 def Palindrome(str):
@@ -55,6 +59,7 @@ else:
 
 
 #Penjumlahan Angka (Rekrusif)
+"""
 Input 1 :
 12345
 Output 1 :
@@ -64,6 +69,7 @@ Input 2 :
 9
 Output 2 :
 9
+"""
 
 #################################
 def jumlahAngka(n):
@@ -80,6 +86,7 @@ print(jumlahAngka(n))
 
 
 #Perkalian (rekrusif)
+"""
 Input 1 :
 3
 5
@@ -91,6 +98,7 @@ Input 2 :
 0
 Output 2 :
 0
+"""
 
 #################################
 def kali(m, n):
@@ -113,6 +121,7 @@ print(kali(m, n))
 
 
 #Hitung Nol
+"""
 Input 1 :
 10204
 Output 1 :
@@ -122,6 +131,7 @@ Input 2 :
 708000
 Output 2 :
 4
+"""
 
 #################################
 def hitungNol(n):
@@ -145,6 +155,7 @@ print(hitungNol(n))
 
 
 #String ke Integer
+"""
 Input 1 :
 1231
 Output 1 :
@@ -154,6 +165,7 @@ Input 2 :
 12567
 Output 2 :
 12567
+"""
 
 #################################
 def string_int(n):
@@ -166,6 +178,7 @@ print(r)
 
 
 #Sepasang bintang
+"""
 Input 1 :
 hello
 Output 1:
@@ -175,6 +188,7 @@ Input 2 :
 aaaa
 Output 2 :
 a*a*a*a
+"""
 
 #################################
 def pasangBintang(Input, Output, i=0):
@@ -196,6 +210,7 @@ if __name__ == "__main__":
 
 
 #Cek AB
+"""
 Input 1 :
 abb
 Output 1 :
@@ -205,6 +220,7 @@ Input 2 :
 abababa
 Output 2 :
 false
+"""
 
 #################################
 def cekAB(str):
