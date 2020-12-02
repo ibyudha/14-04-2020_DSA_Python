@@ -2,6 +2,7 @@
 # by Gus Yudha
 
 #Hapus X
+"""
 Input 1 :
 xaxb
 Output 1:
@@ -15,6 +16,8 @@ abc
 Input 3 :
 xx
 Output 3:
+
+"""
 
 #################################
 def hapusX(s,x):
@@ -35,6 +38,7 @@ print(r)
 
 
 #Hapus Duplikasi yang rekrusif
+"""
 Input 1 :
 aabccba
 Output 1 :
@@ -44,6 +48,7 @@ Input 2 :
 xxxyyyzwwzzz
 Output 2 :
 xyzwz
+"""
 
 #################################
 def hapusDuplikasi(s):
@@ -65,6 +70,7 @@ print(r)
 
 
 #Merge Sort
+"""
 Input 1 :
 6
 2 6 8 5 4 3
@@ -76,6 +82,7 @@ Input 2 :
 2 1 5 2 3
 Output 2 :
 1 2 2 3 5
+"""
 
 #################################
 def mergeSort(arr, awal, akhir):
@@ -121,6 +128,7 @@ print()
 
 
 #Quick Sort
+"""
 Input 1 :
 6
 2 6 8 5 4 3
@@ -132,6 +140,7 @@ Input 2 :
 1 5 2 7 3
 Output 2 :
 1 2 3 5 7
+"""
 
 #################################
 def partisi(a,si,ei):
@@ -170,6 +179,7 @@ for x in a:
 
 
 #Tower Hanoi
+"""
 Input 1 :
 2
 Output 1 :
@@ -187,6 +197,7 @@ a c
 b a
 b c
 a c
+"""
 
 #################################
 def tower(n,a,b,c):
