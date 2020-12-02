@@ -195,7 +195,6 @@ Input 2 :
 Output 2 :
 4
 
-
 Penjelasan untuk Input 2 :
 Mencari dengan 1 lompatan, N = 6 muncul di posisi 4 (dengan asumsi index dimulai dari 0)
 """
