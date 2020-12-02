@@ -2,6 +2,7 @@
 # by Gus Yudha
 
 #Pangkat
+"""
 Input 1 :
 3 4
 Output 1 :
@@ -11,6 +12,7 @@ Input 2 :
 2 5
 Output 2 :
 32
+"""
 
 #################################
 def pangkat(X,N):
@@ -24,6 +26,7 @@ print(r)
 
 
 #Penjumlahan Array
+"""
 Input 1 :
 3
 9 8 9
@@ -35,6 +38,7 @@ Input 2 :
 4 2 1
 Output 2 :
 7
+"""
 
 #################################
 n=int(input())
@@ -46,6 +50,7 @@ print(jumlah)
 
 
 #Cek angka pada array
+"""
 Input 1 :
 3
 9 8 10
@@ -59,6 +64,7 @@ Input 2 :
 2
 Output 2 :
 false
+"""
 
 #################################
 def angkaDiArray(li):
@@ -77,12 +83,14 @@ angkaDiArray(li)
 
 
 #Temukan Index angka pertama pada array
+"""
 Input :
 4
 9 8 10 8
 8
 Output :
 1
+"""
 
 #################################
 def indexPertama(a,x):
@@ -108,12 +116,14 @@ print(r)
 
 
 #Temukan Index angka terakhir pada array
+"""
 Input :
 4
 9 8 10 8
 8
 Output :
 3
+"""
 
 #################################
 def indexTerakhir(a,x):
